@@ -1,0 +1,86 @@
+.event-page {
+  padding: 20px;
+}
+
+.event-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.page-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-bar {
+  display: flex;
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 10px;
+  align-items: center;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.fa-search {
+  color: #555;
+  margin-left: 10px;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.event-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Style for the card container */
+.event-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.2s;
+  }
+  
+  /* Style for the card image */
+  .card-image {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  /* Style for the card info section */
+  .card-info {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  /* Style for the circle logo */
+  .circle-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .circle-logo-image {
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  

@@ -1,0 +1,89 @@
+/* CommunityCard.css */
+.donate-card {
+    text-align: center;
+    margin: 10px;
+}
+
+.donate-circle {
+    width: 200px;
+    height: 250px;
+    background-color: #1CAE8133;
+    border-radius: 8%;
+    /* display: flex; */
+
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.20);
+}
+
+.price-tag {
+    left: 135px;
+    background-color: #1CAE81;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    display: inline-block;
+    top: 10;
+    position: relative;
+    top: -57px;
+}
+
+.donate-image {
+    margin-top: 40px;
+    object-fit: contain;
+    width: 140px;
+    height: 140px;
+    position: relative;
+    right: 18px;
+}
+
+.donate-name {
+    text-align: center;
+    width: 100%;
+    margin-right: 70px;
+    margin-top: 10px;
+    font-size: 16px;
+    
+}
+/* DonateCard.css */
+/* Add these styles for green buttons */
+.increment-button {
+    background-color: #1CAE81;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.decrement-button {
+    background-color: #1CAE81;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* Center the button text vertically and horizontally */
+.increment-button, .decrement-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Add hover effect */
+.increment-button:hover, .decrement-button:hover {
+    background-color: #148b68; /* Darker green on hover */
+}
+.amount-counter {
+    display: flex;
+    justify-content: center;
+    width: 72%;
+    margin-top: 15px;
+}

@@ -1,0 +1,29 @@
+/* CommunityCard.css */
+.community-card {
+    text-align: center;
+    margin: 10px;
+}
+
+.circle {
+    width: 200px; /* Adjust the circle size as needed */
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.20);}
+
+.community-image {
+    object-fit: contain;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.community-name {
+    margin-right: 70px;
+    margin-top: 10px;
+    font-size: 16px; /* Adjust the font size as needed */
+}

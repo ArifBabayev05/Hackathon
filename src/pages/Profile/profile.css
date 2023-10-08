@@ -1,0 +1,38 @@
+/* ProfilePage.css */
+.profile-page {
+
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile-photo {
+    width: 120px; /* Adjust the size as needed */
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-name {
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+.edit-profile-button {
+    margin-left: auto;
+    padding: 10px 20px;
+    background-color: #1CAE81;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+

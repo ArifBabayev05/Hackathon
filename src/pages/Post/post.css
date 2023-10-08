@@ -1,0 +1,365 @@
+.post1 {
+    display: flex;
+    flex-direction: column;
+    /* Adjust the direction to stack elements vertically */
+}
+
+.background-image1 {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    /* Make the position relative for absolute positioning */
+}
+
+.gradient-bottom1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 325px;
+    width: 100%;
+    height: 30%;
+    /* Adjust the height of the gradient as needed */
+    background: linear-gradient(2deg, #FFF 6.53%, rgba(255, 255, 255, 0.00) 85%);
+    z-index: 1;
+    /* Ensure the gradient is on top of the image */
+}
+
+/* Gradient overlay at the bottom of the image */
+.background-image1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    /* Adjust the height of the gradient as needed */
+    background: linear-gradient(2deg, #FFF 0%, rgba(255, 255, 255, 0.00) 98.6%);
+}
+
+.image-title1 {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.search-bar {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    width: 400px;
+    height: 50px;
+    display: flex;
+    background-color: #fff;
+    /* White background color */
+    border: none;
+    /* Remove border */
+    border-radius: 20px;
+    /* Add border-radius for rounded corners */
+    padding: 5px 10px;
+    /* Add padding for spacing */
+    align-items: center;
+    /* Center items vertically */
+}
+
+.search-input {
+    position: absolute;
+    flex: 1;
+    width: 340px;
+    border: none;
+    /* Remove input border */
+    background: none;
+    /* Remove input background */
+    outline: none;
+    /* Remove input focus outline */
+    font-size: 16px;
+    /* Adjust font size as needed */
+}
+
+.fa-search {
+    position: absolute;
+    /* top: 20%; */
+    right: 4%;
+
+    color: #555;
+    /* Icon color */
+    margin-left: 10px;
+    /* Add some space between input and icon */
+}
+
+
+.image-title2 {
+    position: absolute;
+    top: 20%;
+    background-color: rgba(240, 248, 255, 0.723);
+    padding: 8px;
+    border-radius: 10px;
+    right: 5%;
+    color: #454545;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.whiteCircle1 {
+    position: absolute;
+    top: 45%;
+    left: 28%;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background-color: #FFF;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    z-index: 1;
+    /* Ensure the white circle is below the image */
+}
+
+.circular-photo1 {
+    position: absolute;
+    background-color: white;
+    top: 45%;
+    left: 28%;
+    object-fit: contain;
+    transform: translate(-50%, -50%);
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 2px solid white;
+    z-index: 2;
+    /* Add a border to the circular photo */
+}
+
+.photoText1 {
+    position: absolute;
+    color: #000;
+    max-width: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+    top: 60%;
+    left: 24%;
+    z-index: 3;
+}
+
+.whiteCircle2 {
+    position: absolute;
+    top: 45%;
+    left: 48%;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background-color: #FFF;
+    object-fit: contain;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    /* Ensure the white circle is below the image */
+}
+
+.circular-photo2 {
+    background-color: white;
+    position: absolute;
+    top: 45%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: contain;
+    border: 2px solid white;
+    z-index: 2;
+    /* Add a border to the circular photo */
+}
+
+.photoText2 {
+    position: absolute;
+    color: #000;
+    max-width: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+    top: 60%;
+    left: 44%;
+    z-index: 3;
+}
+
+.whiteCircle3 {
+    position: absolute;
+    top: 45%;
+    left: 68%;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    object-fit: contain;
+    background-color: #FFF;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    /* Ensure the white circle is below the image */
+}
+
+.circular-photo3 {
+    position: absolute;
+    top: 45%;
+    left: 68%;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: contain;
+    border: 2px solid white;
+    z-index: 2;
+    /* Add a border to the circular photo */
+}
+
+.photoText3 {
+    position: absolute;
+    color: #000;
+    max-width: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+    top: 60%;
+    left: 64%;
+    z-index: 3;
+}
+
+.whiteCircle4 {
+    position: absolute;
+    top: 45%;
+    left: 88%;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background-color: #FFF;
+    object-fit: contain;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    /* Ensure the white circle is below the image */
+}
+
+.circular-photo4 {
+    position: absolute;
+    background-color: white;
+    top: 45%;
+    object-fit: contain;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 2px solid white;
+    z-index: 2;
+    /* Add a border to the circular photo */
+}
+
+.photoText4 {
+    position: absolute;
+    color: #000;
+    max-width: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+    top: 60%;
+    left: 84%;
+    z-index: 3;
+}
+
+
+.organization-name1 {
+    height: 50px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    top: 360px;
+    font-weight: 800;
+    z-index: 2;
+    left: 32%;
+}
+
+.organization-subname1 {
+    height: 50px;
+    position: absolute;
+    color: rgb(65, 65, 65);
+    top: 380px;
+    font-size: 15px;
+    z-index: 2;
+    left: 32%;
+}
+
+.joinButton1 {
+    height: 50px;
+    position: absolute;
+    color: rgb(65, 65, 65);
+    top: 290px;
+    width: 100px;
+    border-radius: 40px;
+    font-size: 15px;
+    z-index: 2;
+    right: 12%;
+    border: none !important;
+    border-radius: 25px;
+    width: 120px;
+    height: 43px;
+    padding: 10px;
+    background: #1CAE81 !important;
+}
+
+.cards-section {
+    position: relative;
+    top: 50px;
+    left: 0px;
+}
+
+/* Add this CSS to your stylesheet */
+
+.custom-card {
+
+    border: none;
+    /* Remove the default card border */
+    background-color: #fff;
+    /* Set a white background */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    /* Add a subtle box shadow */
+    transition: transform 0.2s;
+    /* Add a hover effect */
+}
+
+.custom-card:hover {
+    transform: translateY(-5px);
+    /* Move the card up on hover */
+}
+
+.custom-card .card-title {
+    font-size: 1.25rem;
+    /* Increase the title font size */
+    font-weight: bold;
+    /* Make the title bold */
+    margin-bottom: 0.5rem;
+    /* Add spacing below the title */
+}
+
+.custom-card .card-text {
+    font-size: 0.875rem;
+    /* Reduce the text font size */
+}
+
+.custom-card .card-img-top {
+    border-radius: 0.5rem 0.5rem 0 0;
+    /* Add rounded corners to the top */
+
+}
+
+.section-title {
+    text-align: left;
+    /* Center-align the section title */
+    margin-bottom: 2rem;
+    /* Add spacing below the section title */
+}
+
+/* Add additional styles as needed */

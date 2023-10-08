@@ -1,0 +1,33 @@
+.eventdetail{
+    padding:140px;
+}
+.imageSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.greenBackground {
+    margin-top:50px;
+    border-radius: 15px;
+    background-color: #1cae82a0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.photo {
+    flex: 1;
+    height: 300px; /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    flex: 1;
+    background-image: url("../../assets/images/home.png");
+    height: 300px; /* Adjust the height as needed */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
